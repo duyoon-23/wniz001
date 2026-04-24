@@ -1,5 +1,14 @@
 # wniz001
 
+## 구현 템플릿 제공
+
+요청하신 내용에 맞춰 실제로 시작할 수 있는 **크로스플랫폼 운영 템플릿**을 `stack/` 경로에 추가했습니다.
+
+- 시작 문서: `stack/README.md`
+- 인벤토리 예시: `stack/ansible/inventory.ini.example`
+- 공통 변수: `stack/ansible/group_vars/all.yml`
+- 베이스라인 플레이북: `stack/ansible/playbook.yml`
+
 ## AmneziaWG = WireGuard + Obfuscation
 
 요청하신 **"사용되는 IP가 외부에 알려지지 않도록"** 목표에 대해, 핵심은 아래와 같습니다.
