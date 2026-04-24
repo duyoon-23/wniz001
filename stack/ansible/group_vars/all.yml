@@ -1,0 +1,16 @@
+---
+awg_interface: awg0
+awg_listen_port: 51820
+awg_dns:
+  - 1.1.1.1
+  - 9.9.9.9
+
+relay1_wan_nic: eth0
+relay2_wan_nic: eth0
+
+# Relay-2에서 외부로 나갈 NIC
+egress_nic: eth0
+
+# 필요 시 허용할 관리 CIDR
+authorized_admin_cidrs:
+  - 0.0.0.0/0
